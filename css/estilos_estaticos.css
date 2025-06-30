@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+}
+.flex-direction-column {
+    flex-direction: column;
+}
+.cover{
+    object-fit: cover;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.d-block {
+    display: block;
+}

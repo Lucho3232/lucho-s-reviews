@@ -1,0 +1,41 @@
+.container-categoria-popular img {
+    max-width: 150px;
+    max-height: 150px;
+}
+.container-categoria-popular a {
+    align-items: center;
+    display: flex;
+    flex: 0 0 calc(100%/6);
+    flex-flow: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.container-categoria-popular span {
+    align-items: center;
+    color: #1d1d1f;
+    display: flex;
+    font-weight: 700;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+    position: relative;
+    font-size: .9rem;
+}
+.container-categoria-popular .span-svg {
+    align-items: center;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    height: 1.3rem;
+    margin-top: 0;
+    justify-content: center;
+    transition: all .3s ease;
+    width: 1.3rem;
+}
+.container-categoria-popular .span-svg svg {
+    fill: #fff;
+    height: 1rem;
+    width: 1rem;
+}
