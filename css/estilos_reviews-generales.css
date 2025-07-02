@@ -1,0 +1,207 @@
+.container-h1 {
+    max-width: 48rem;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.container-filtros {
+    flex-basis: 25%;
+    padding: 0 16px;
+}
+.container-filtros .filtro {
+    margin-top: .5rem;
+    margin-bottom: 1rem!important;
+    border-bottom: 1px solid #cbd5e0;
+}
+.container-filtros .filtro img{
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: rotate(180deg);
+}
+.container-filtros .filtro span {
+    font-weight: bold;
+    color: #2d3748;
+
+}
+.container-filtros .filtro-opciones {
+    max-height: 200px;
+    overflow-y: auto;
+}
+.container-filtros .filtro-opciones span{
+    display: block;
+    font-size: .875rem;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    position: relative;
+    color: #4a5568;
+}
+.container-filtros .filtro-opciones div {
+    position: relative;
+    padding-left: 1.25rem!important;
+    margin-bottom: .25rem;
+    border-bottom: 1px solid #edf2f7;
+}
+.container-filtros .filtro-opciones div::before {
+    background-color: #fff;
+    border-radius: .25rem;
+    border: 1px solid #cbd5e0;
+    content: "";
+    cursor: pointer;
+    display: inline-block;
+    height: .9rem;
+    left: 0;
+    margin-right: .25rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    width: .9rem;
+}
+
+.container-filtros .filtro-opciones span:hover {
+    text-decoration: underline;
+}
+.container-productos {
+    flex-basis: 75%;
+}
+.producto {
+    background-color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+    padding-top: .25rem;
+    border-radius: .25rem;
+    border: 1px solid #dcdcdc;
+    margin-top: 15px;
+}
+.producto:first-child {
+    margin-top: 0;
+}
+.descripcion-producto {
+    padding: .5rem 1rem;
+    padding-right: 0;
+    flex-grow: 1;
+    max-width: 300px;
+}
+.descripcion-producto h2 {
+    text-align: left;
+    color: #2d3748;
+    font-size: 19px;
+    font-weight: bold;
+}
+.tipo-producto {
+    color: #4a5568;
+    margin-bottom: .25rem;
+    font-size: .875rem;
+}
+.ventajas-producto svg{
+    width: 1rem;
+    margin-right: .25rem;
+    height: 1rem;
+}
+.ventajas-producto svg path {
+    color: #008744;
+}
+.star-ratings {
+    display: inline-block;
+    margin: 0;
+    overflow-wrap: normal;
+    padding: 0;
+    position: relative;
+    unicode-bidi: bidi-override;
+    word-break: normal;
+}
+.star-ratings .fill-ratings {
+    display: block;
+    left: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.star-ratings .fill-ratings span {
+    color: #c05621 ;
+}
+.bandera {
+      position: relative;
+      width: 80px;
+      background: #000;
+      font-family: sans-serif;
+      text-align: center;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.bandera .titulo {
+      font-size: 12px;
+      padding: 4px 0 2px;
+      position: relative;
+      color: #fff;
+}
+
+.bandera .puntaje {
+      background: #008744;
+      padding: 6px 0;
+      font-size: 22px;
+      color: #fff;
+}
+
+.bandera .puntaje span {
+      font-size: 14px;
+      color: #fff;
+}
+
+.bandera .texto {
+      font-size: 13px;
+      padding: 4px 0 6px;
+      font-weight: bold;
+      color: #fff;
+}
+
+.precio-bajo {
+      border: 1px dashed #ccc;
+      padding: 10px;
+      width: 160px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #333;
+      position: relative;
+      box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+}
+
+    .precio-bajo .titulo {
+      font-size: .75rem;
+      font-weight: bold;
+      color: #4a5568;
+      margin-bottom: 8px;
+    }
+    .precio-bajo .logo-precio {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .precio-bajo .logo-precio img {
+      height: 20px;
+    }
+
+    .precio-bajo .precio {
+      color: #0077cc;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .precio-bajo .premios {
+      font-size: 13px;
+      color: #888;
+      text-align: center;
+      margin-top: 6px;
+    }
+
+    .precio-bajo .premios a {
+      color: #888;
+      text-decoration: none;
+    }
+
+    .precio-bajo .premios a:hover {
+      text-decoration: underline;
+    }

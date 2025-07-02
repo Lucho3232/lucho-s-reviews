@@ -13,3 +13,33 @@
 .d-block {
     display: block;
 }
+.jc-between {
+    justify-content: space-between;
+}
+.relative {
+    position: relative;
+}
+.inline-flex {
+    display: inline-flex;
+}
+.items-center {
+    align-items: center;
+}
+.font-bold {
+    font-weight: 700;
+}
+.justify-center {
+    justify-content: center;
+}
+.absolute {
+    position: absolute;
+}
+.text-center {
+    text-align: center;
+}
+.w-100 {
+    width: 100%;
+}
+.right-0 {
+    right: 0;
+}

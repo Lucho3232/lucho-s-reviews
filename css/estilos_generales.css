@@ -9,7 +9,7 @@
 .container {
     max-width: 1200px;
     margin:auto;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .container-img-presentacion img {
@@ -23,14 +23,16 @@
     margin-top: 20px;
 }
 h1,h2,h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 h1 {
     font-size: 42px;
-    font-weight: 400;
-    font-family: 'Barlow Condensed',sans-serif;
+    font-weight: 700;
 }
 h2 {
     font-size: 26px;
+}
+p {
+    margin-top: 10px;
 }

@@ -1,0 +1,40 @@
+h1 {
+    text-align: left;
+    font-size: 1.875rem;
+    margin-bottom: 20px;
+}
+.bandera {
+      position: relative;
+      width: 80px;
+      background: #000;
+      font-family: sans-serif;
+      text-align: center;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.bandera .titulo {
+      font-size: 12px;
+      padding: 4px 0 2px;
+      position: relative;
+      color: #fff;
+}
+
+.bandera .puntaje {
+      background: #008744;
+      padding: 6px 0;
+      font-size: 22px;
+      color: #fff;
+}
+
+.bandera .puntaje span {
+      font-size: 14px;
+      color: #fff;
+}
+
+.bandera .texto {
+      font-size: 13px;
+      padding: 4px 0 6px;
+      font-weight: bold;
+      color: #fff;
+}

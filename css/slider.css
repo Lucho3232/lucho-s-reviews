@@ -1,0 +1,38 @@
+.slider-container { position: relative; width: 500px; overflow: hidden; }
+    .slides { display: flex; transition: transform 0.3s ease; cursor: grab; }
+    .slides.grabbing { cursor: grabbing; }
+    .slide { min-width: 100%; user-select: none; }
+    .slide img {max-width: 100%;padding: 10px; display: block;margin: auto; user-select: none;max-height: 300px;object-fit: contain;border: 1px solid #cbd5e0; }
+
+    /* Flechas */
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: #fff;
+      padding: 0.5rem;
+      cursor: pointer;
+      font-size: 1.5rem;
+      z-index: 2;
+    }
+    .arrow--left { left: 10px; }
+    .arrow--right { right: 10px; }
+
+    /* Thumbnails */
+    .thumbnails {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .thumbnail {
+      width: 60px;
+      height: 60px;
+      margin: 0 5px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+    .thumbnail.active { border-color: #333; }
+    .thumbnail img { width: 100%; height: 100%; object-fit: contain; }
